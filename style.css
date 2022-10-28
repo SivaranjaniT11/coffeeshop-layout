@@ -1,0 +1,669 @@
+*{
+    margin: 0;padding: 0;
+}
+/*Header section style*/
+header{
+    background-color: aqua;
+    width: 100%;
+    height:80px;
+    position: relative;
+}
+.nav{ 
+    background-color:yellow;
+    width: 98%;
+    height:65px;
+    position: absolute;
+    top: 8px;left:15px;
+}
+#logo{
+    background-color: blue;
+    width: 5%;
+    height: 70%;
+    position: absolute;
+    top: 13px;
+    left:25px;
+    margin-bottom: 20px;
+}
+#nav_links{
+    background-color: rgb(14, 14, 82);
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    top: 15px;
+    margin-left: 50%;
+}
+.mashead{
+    background-color: rgb(46, 3, 119);
+    width:100%;
+    height: 88vh;
+    position: relative;
+}
+.img{
+    background-color: rgb(185, 174, 202);
+    width:90%;
+    height: 80vh;
+    position: absolute;
+    left:5%;top: 5%;
+}
+#box{
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    left: 10%;top: 30%;
+    background-color: rgb(229, 207, 15);
+}
+.hl{
+    width: 80%;
+    height: 20%;
+    position: absolute;left: 10%;top: 18%;
+    background-color: rgb(15, 15, 137);
+}
+.p{
+    width: 80%;
+    height: 20%;
+    position: absolute;left: 10%;top: 40%;
+    background-color: rgb(15, 15, 137);
+}
+.bt{
+    width: 80%;
+    height: 20%;
+    position: absolute;left: 10%;top: 62%;
+    background-color: rgb(15, 15, 137);
+}
+
+/*About style style*/
+
+   .container{
+    background-color: rgb(78, 215, 243);
+    width:100%;
+    height: 100vh; 
+    position: relative;
+}
+.about{
+    width: 85%;
+    height: 70%;
+    position: absolute;
+    left: 8%;top: 15%;
+    background-color:blueviolet;
+}
+.image{
+    width: 42%;
+    height: 68%;
+    position: absolute;
+    left: 8%;top:15%;
+    background-color:white;
+}
+.bx{
+    width: 42%;
+    height: 68%;
+    position: absolute;
+    left: 51%;top:15%;
+    background-color:white;
+}
+.title{
+    width: 80%;
+    height: 20%;
+    position: absolute;left: 10%;top: 18%;
+    background-color: rgb(15, 15, 137);
+}
+.dis{
+    width: 80%;
+    height: 20%;
+    position: absolute;left: 10%;top: 40%;
+    background-color: rgb(15, 15, 137);
+}
+.buton{
+    width: 80%;
+    height: 20%;
+    position: absolute;left: 10%;top: 62%;
+    background-color: rgb(15, 15, 137);
+}
+   
+/* Facility Section style*/
+
+.fac-container{
+    background-color: rgb(172, 222, 232);
+    width:100%;
+    height: 100vh; 
+    position: relative;
+}
+.con-box{
+    width: 85%;
+    height: 70%;
+    position: absolute;
+    left: 8%;top: 15%;
+    background-color:rgb(125, 10, 66);
+}
+.row{
+    width:90%;
+    height: 30%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:3%;
+}
+.row .pic{
+    border-radius:20px;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        left: 35%;top:2%;
+        background-color:rgb(32, 228, 246);
+}
+.row .head-1{
+        width: 30%;
+        height: 50%;
+        position: absolute;
+        left: 30%;top:45%;
+        background-color:rgb(25, 9, 127);
+        border-radius: 10px;
+
+}
+.row1{
+    width:90%;
+    height: 60%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:35%;
+}
+.col1{
+    width:20%;
+    height:80%;
+    background-color:blueviolet;
+    position: absolute;
+    left:5%;top:10%;
+}
+.col2{
+    width:20%;
+    height:80%;
+    background-color:blueviolet;
+    position: absolute;
+    left:28%;top:10%;
+}
+.col3{
+    width:20%;
+    height:80%;
+    background-color:blueviolet;
+    position: absolute;
+    left:51%;top:10%;
+}
+.col4{
+    width:20%;
+    height:80%;
+    background-color:blueviolet;
+    position: absolute;
+    left:74%;top:10%;
+}
+.ig1{
+    background-color: white;
+    width:40%;
+    height:33%;
+    position: absolute;
+    left:30%;top:8%;
+    border-radius: 30px;
+}
+.head-line{
+    width:60%;
+    height:20%;
+    position: absolute;
+    left: 20%;top: 46%;
+    background-color: rgb(85, 241, 255);
+    border-radius: 10px;
+}
+.p-1{
+    width: 80%;
+    height: 28%;
+    position: absolute;
+    left: 10%;top: 70%;
+    background-color: rgb(15, 15, 137);
+}
+
+/*Menu section style*/
+   .container-1{
+    height:200vh; 
+    background-color: rgb(18, 132, 194);
+    width:100%;
+    position: relative;
+}
+.menu-box-1{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 15%;top: 10%;
+    background-color:rgb(125, 10, 66);
+}
+.menu-row{
+    width:90%;
+    height:13%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:4%;
+}
+.menu-img{
+    border-radius:20px;
+        width: 20%;
+        height: 25%;
+        position: absolute;
+        left: 40%;top:4%;
+        background-color:rgb(32, 228, 246);
+}
+.menu-head{
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        left: 35%;top:45%;
+        background-color:rgb(25, 9, 127);
+        border-radius: 10px;
+
+}
+.menu-row1{
+    width:90%;
+    height: 78%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:20%;
+}
+.menu-col1{
+    border-radius: 90%;
+    width:30%;
+    height:30%;
+    background-color:blueviolet;
+    position: absolute;
+    left:2%;top:5%;
+}
+.menu-col2{
+    border-radius: 90%;
+    width:30%;
+    height:30%;
+    background-color:blueviolet;
+    position: absolute;
+    left:35%;top:5%;
+}
+.menu-col3{
+    border-radius: 90%;
+    width:30%;
+    height:30%;
+    background-color:blueviolet;
+    position: absolute;
+    left:68%;top:5%;
+}
+.menu-col4{
+    border-radius: 90%;
+    width:30%;
+    height:30%;
+    background-color:blueviolet;
+    position: absolute;
+    left:2%;top:55%;
+}
+.menu-col5{
+    border-radius: 90%;
+    width:30%;
+    height:30%;
+    background-color:blueviolet;
+    position: absolute;
+    left:35%;top:55%;
+}
+.menu-col6{
+    border-radius: 90%;
+    width:30%;
+    height:30%;
+    background-color:blueviolet;
+    position: absolute;
+    left:68%;top:55%;
+}
+.menu-hl{
+    width: 60%;
+    height:20%;
+    position: absolute;
+    left: 20%;top:110%;
+    background-color:rgb(25, 9, 127);
+    border-radius: 10px;
+
+}
+/*Gallery section style*/
+
+
+.gallery-box{
+    width: 85%;
+    height: 87%;
+    position: absolute;
+    left: 7.5%;top: 5%;
+    background-color:rgb(125, 10, 66);
+}
+.gallery-row{
+    width:90%;
+    height:15%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:4%;
+}
+.gallery-row .gallery-img{
+    border-radius:20px;
+        width: 20%;
+        height: 25%;
+        position: absolute;
+        left: 40%;top:4%;
+        background-color:rgb(32, 228, 246);
+}
+.gallery-row .gallery-head{
+        width: 30%;
+        height: 33%;
+        position: absolute;
+        left: 35%;top:45%;
+        background-color:rgb(25, 9, 127);
+        border-radius: 10px;
+
+}
+.gallery-row1{
+    width:90%;
+    height: 76%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:20%;
+}
+.gallery-coll1{ 
+    width:32%;
+    height:45%;
+    background-color:rgb(156, 15, 160);
+    position: absolute;
+    left:1%;top:2%;
+}
+.gallery-coll2{
+    width:32%;
+    height:45%;
+    background-color:rgb(156, 15, 160);
+    position: absolute;
+    left:34%;top:2%;
+}
+.gallery-coll3{
+    width:32%;
+    height:45%;
+    background-color:rgb(156, 15, 160);
+    position: absolute;
+    left:67%;top:2%;
+}
+.gallery-coll4{
+    width:32%;
+    height:45%;
+    background-color:rgb(156, 15, 160);
+    position: absolute;
+    left:1%;top:50%;
+}
+.gallery-coll5{
+    width:32%;
+    height:45%;
+    background-color:rgb(156, 15, 160);
+    position: absolute;
+    left:34%;top:50%;
+}
+.gallery-coll6{
+    width:32%;
+    height:45%;
+    background-color:rgb(156, 15, 160);
+    position: absolute;
+    left:67%;top:50%;
+}
+
+/*team section style*/
+   .team-container{
+    background-color: rgb(11, 171, 102);
+    width:100%;
+    height:180vh; 
+    position: relative;
+}
+.team-box{
+    width: 90%;
+    height: 87%;
+    position: absolute;
+    left: 5%;top: 5%;
+    background-color:rgb(125, 10, 66);
+}
+.team-row{
+    width:90%;
+    height:15%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:4%;
+}
+.team-row .team-img{
+    border-radius:20px;
+        width: 20%;
+        height: 25%;
+        position: absolute;
+        left: 40%;top:4%;
+        background-color:rgb(32, 228, 246);
+}
+.team-row .team-h1{
+        width: 30%;
+        height: 33%;
+        position: absolute;
+        left: 35%;top:45%;
+        background-color:rgb(25, 9, 127);
+        border-radius: 10px;
+}
+.team-row1{
+    width:90%;
+    height: 76%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:20%;
+}
+.team-col1{ 
+    width:30%;
+    height:38%;
+    border-radius: 10px;
+    background-color:rgb(25, 9, 127);
+    position: absolute;
+    left:2%;top:2%;
+}
+.team-col2{
+    width:30%;
+    height:38%;
+    border-radius: 10px;
+    background-color:rgb(25, 9, 127);
+    position: absolute;
+    left:35%;top:2%;
+}
+.team-col3{
+    width:30%;
+    height:38%;
+    border-radius: 10px;
+    background-color:rgb(25, 9, 127);
+    position: absolute;
+    left:68%;top:2%;
+}
+.team-col4{
+    width:30%;
+    height:38%;
+    border-radius: 10px;
+    background-color:rgb(25, 9, 127);
+    position: absolute;
+    left:2%;top:50%;
+}
+.team-col5{
+    width:30%;
+    height:38%;
+    border-radius: 10px;
+    background-color:rgb(25, 9, 127);
+    position: absolute;
+    left:35%;top:50%;
+}
+.team-col6{
+    width:30%;
+    height:38%;
+    border-radius: 10px;
+    background-color:rgb(25, 9, 127);
+    position: absolute;
+    left:68%;top:50%;
+}
+.team-hl{
+    width: 60%;
+    height:18%;
+    position: absolute;
+    left: 20%;top:105%;
+    background-color:rgb(99, 7, 185);
+    border-radius: 10px;
+}
+/*contact section style*/
+   .contact-container{
+    background-color: aquamarine;
+    width:100%;
+    height: 160vh; 
+    position: relative;
+}
+
+.contact-con{
+    width: 95%;
+    height: 80%;
+    position: absolute;
+    left: 2.5%;top: 5%;
+    background-color:rgb(125, 10, 66);
+}
+.contact-row{
+    width:90%;
+    height:13%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:4%;
+}
+.contact-row .contact-img{
+    border-radius:20px;
+        width: 20%;
+        height: 25%;
+        position: absolute;
+        left: 40%;top:4%;
+        background-color:rgb(32, 228, 246);
+}
+.contact-row .contact-h1{
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        left: 35%;top:45%;
+        background-color:rgb(25, 9, 127);
+        border-radius: 10px;
+
+}
+.contact-about{
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    left: 5%;top: 20%;
+    background-color:white;
+}
+.contact-img{
+    width: 42%;
+    height: 68%;
+    position: absolute;
+    left: 8%;top:15%;
+    background-color:blueviolet;
+}
+.contact-box{
+    width: 42%;
+    height: 68%;
+    position: absolute;
+    left: 51%;top:15%;
+    background-color:blueviolet;
+}
+
+/* footer section style */
+
+   .foot-container{
+    background-color: rgb(4, 115, 78);
+    width:100%;
+    height: 80vh; 
+    position: relative;
+}
+.foot-box{
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    left: 2.5%;top: 5%;
+    background-color:rgb(125, 10, 66);
+}
+.foot-row1{
+    width:90%;
+    height: 80%;
+    background-color:white;
+    position: absolute;
+    left: 5%;top:7%;
+}
+.foot-col1{
+    width:20%;
+    height:50%;
+    background-color:blueviolet;
+    position: absolute;
+    left:5%;top:5%;
+}
+.foot-col2{
+    width:20%;
+    height:50%;
+    background-color:blueviolet;
+    position: absolute;
+    left:28%;top:5%;
+}
+.foot-col3{
+    width:20%;
+    height:50%;
+    background-color:blueviolet;
+    position: absolute;
+    left:51%;top:5%;
+}
+.foot-col4{
+    width:20%;
+    height:50%;
+    background-color:blueviolet;
+    position: absolute;
+    left:74%;top:5%;
+}
+.foot-image{
+    background-color: white;
+    width:25%;
+    height:20%;
+    position: absolute;
+    left:38%;top:8%;
+    border-radius: 30px;
+}
+.foot-hl{
+    width:60%;
+    height:20%;
+    position: absolute;
+    left: 20%;top: 30%;
+    background-color: rgb(85, 241, 255);
+    border-radius: 10px;
+}
+.foot-p{
+    width: 80%;
+    height: 25%;
+    position: absolute;
+    left: 10%;top: 56%;
+    background-color: rgb(15, 15, 137);
+}
+.foot-p1{
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    left: 10%;top: 56%;
+    background-color: rgb(15, 15, 137);
+}
+.foot-p2{
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    left: 10%;top: 76%;
+    background-color: rgb(15, 15, 137);
+}
+hr{
+    position: absolute;
+    top: 60%;
+    left:5%;
+    background-color: rgb(125, 10, 66);
+    height: 2px;
+    width: 90%;
+    border: none;
+}
+.foot-boxx{
+    background-color: blue;
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    top: 70%;left: 25%;
+}
